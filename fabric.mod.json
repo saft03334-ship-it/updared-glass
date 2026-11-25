@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "glassbot",
+  "version": "${version}",
+  "name": "Glass Villager Bot",
+  "description": "Client-side bot that levels librarians until they sell glass and sorts the villagers into glass / non-glass spots.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.glassbot.GlassBotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
